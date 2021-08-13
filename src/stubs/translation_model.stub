@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use AmjadAH\LaravelTranslation\Contracts\TranslationsInterface;
+use AmjadAH\LaravelTranslation\Traits\TranslateScope;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class {{class}} extends Model implements TranslationsInterface
+{
+    use HasFactory, TranslateScope;
+
+    protected $guarded = [];
+}

@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use AmjadAH\LaravelTranslation\Contracts\TranslatableInterface;
+use AmjadAH\LaravelTranslation\Traits\Translatable;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class {{class}} extends Model implements TranslatableInterface
+{
+    use HasFactory, Translatable;
+
+    protected $with = ['translations'];
+}

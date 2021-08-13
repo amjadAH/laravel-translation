@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.010634">
+    <testsuite name="Laravel translations" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.010634">
+      <testsuite name="AmjadAH\LaravelTranslation\Tests\TranslationTest" file="/Users/amjad/Dev/playground/php-pkg/tests/TranslationTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.010634">
+        <testcase name="is_running" class="AmjadAH\LaravelTranslation\Tests\TranslationTest" classname="AmjadAH.LaravelTranslation.Tests.TranslationTest" file="/Users/amjad/Dev/playground/php-pkg/tests/TranslationTest.php" line="12" assertions="1" time="0.010634"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

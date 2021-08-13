@@ -1,0 +1,37 @@
+{
+    "name": "amjad-ah/laravel-translation",
+    "description": "A package to simplify translation in database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amjad",
+            "email": "amjad_ah_@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AmjadAH\\LaravelTranslation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AmjadAH\\LaravelTranslation\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "illuminate/console": "^5.7|^6.0|^7.0|^8.0",
+        "illuminate/database": "^5.7|^6.0|^7.0|^8.0",
+        "illuminate/filesystem": "^5.7|^6.0|^7.0|^8.0",
+        "illuminate/support": "^5.7|^6.0|^7.0|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmjadAH\\LaravelTranslation\\TranslationServiceProvider"
+            ]
+        }
+    }
+}
