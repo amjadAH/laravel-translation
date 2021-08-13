@@ -6,6 +6,12 @@
 ## What it does
 The package allows you to manage multi-language apps in database
 
+## Installation
+
+```bash
+$ composer require amjad-ah/laravel-translation
+```
+
 ## How to use
 
 ```bash
