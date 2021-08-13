@@ -72,3 +72,7 @@ $article = \App\Models\Article::first();
 $article->trans('title'); // this will return the corresponding language to the locale language
 $article->trans('title', 'es'); // this will return the chosen language
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
