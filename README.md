@@ -9,13 +9,13 @@ The package allows you to manage multi-language apps in database
 ## Installation
 
 ```bash
-$ composer require amjad-ah/laravel-translation
+composer require amjad-ah/laravel-translation
 ```
 
 ## How to use
 
 ```bash
-$ php artisan make:translatable Article
+php artisan make:translatable Article
 ```
 
 This command will generate 4 files, 2 migrations file & 2 models, the first model will be called `Article`, the second one will be called `ArticleTranslation`, I guess you know the tables names now,
@@ -43,7 +43,7 @@ the other one `ArticleTranslation` will implement `AmjadAH\LaravelTranslation\Co
 
 now publish the config file to edit the languages you are using and set the default language
 ```bash
-$ php artisan vendor:publish --provider="AmjadAH\LaravelTranslation\TranslationServiceProvider"
+php artisan vendor:publish --provider="AmjadAH\LaravelTranslation\TranslationServiceProvider"
 ```
 
 ---
